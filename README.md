@@ -1,6 +1,6 @@
 # VaLoRA
 
-# Artifacts of VaLoRA
+Artifacts of VaLoRA
 
 ## Environment Setup
 Navigate to the `VaLoRA` folder and follow the instructions to set up the environment.
