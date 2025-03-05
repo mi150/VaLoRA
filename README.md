@@ -62,13 +62,10 @@ python test_kernel_correctness.py
 
 ## Citation
 ```bash
-@misc{mi2025empowervisionapplicationslora,
-      title={Empower Vision Applications with LoRA LMM}, 
-      author={Liang Mi and Weijun Wang and Wenming Tu and Qingfeng He and Rui Kong and Xinyu Fang and Yazhu Dong and Yikang Zhang and Yunchun Li and Meng Li and Haipeng Dai and Guihai Chen and Yunxin Liu},
-      year={2025},
-      eprint={2411.00915},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2411.00915}, 
+@inproceedings{mi2025VaLoRA,
+    title={Empower Vision Applications with LoRA LMM}, 
+    author={Liang Mi and Weijun Wang and Wenming Tu and Qingfeng He and Rui Kong and Xinyu Fang and Yazhu Dong and Yikang Zhang and Yunchun Li and Meng Li and Haipeng Dai and Guihai Chen and Yunxin Liu},
+    year={2025},
+    booktitle = {ACM European Conference on Computer Systems (EuroSys)},
 }
 ```
