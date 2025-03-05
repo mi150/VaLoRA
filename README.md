@@ -45,7 +45,7 @@ LORA_DIR = {"your_adapter_path",}
 
 You can prepare the LoRA adapters based on these open-source repositories ([Qwen-VL](https://github.com/QwenLM/Qwen-VL), [Intern-VL](https://github.com/OpenGVLab/InternVL))
 
-If you want to train an adapter for video analytics tasks with vision task head, you can follow Qwen-VL/modeling_qwen.py to modify QWenLMHeadModel_AR class and follow Qwen-VL/finetune.py to modify your finetuning code.
+If you want to train an adapter for video analytics tasks with vision task head, you can follow Qwen-VL/modeling_qwen.py to modify QWenLMHeadModel_AR class and follow Qwen-VL/finetune_ar.py to modify your finetuning code.
 
 Dummy weights: Change $TASK with the task type to be tested (e.g., vqa, vat), and $TRACE and $DATASET refer to the request trace (like [AzureLLMInferenceTrace](https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2023.md)) and the dataset (like [sharegpt4v](https://huggingface.co/datasets/Lin-Chen/ShareGPT4V/blob/main/sharegpt4v_instruct_gpt4-vision_cap100k.json)) to be used, respectively.
 ```bash
