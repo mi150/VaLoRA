@@ -32,7 +32,7 @@ Make sure triton==2.1.0
 
 ## Prepare the dataset and model
 Modify the path of base models and LoRA adapters in exp_suite.py.
-For example, modify BASE_MODEL to use a custom model path, like this: 
+For example, modify BASE_MODEL to use a custom model path like this: 
 ```bash
 BASE_MODEL = {"qwenvl": "your_model_path"}
 LORA_DIR = {"your_adapter_path",}
@@ -41,11 +41,11 @@ LORA_DIR = {"your_adapter_path",}
 
 ## Example run
 
-You can prepare the LoRA adapters base on these open-source repositories ([Qwen-VL](https://github.com/QwenLM/Qwen-VL), [Intern-VL](https://github.com/OpenGVLab/InternVL))
+You can prepare the LoRA adapters based on these open-source repositories ([Qwen-VL](https://github.com/QwenLM/Qwen-VL), [Intern-VL](https://github.com/OpenGVLab/InternVL))
 
 If you want to train an adapter for video analytics tasks with vision task head, you can follow Qwen-VL/modeling_qwen.py to modify QWenLMHeadModel_AR class and follow Qwen-VL/finetune.py to modify your finetuning code.
 
-Dummy weights: Change $TASK with the task type to be tested (e.g., vqa, vat), and $TRACE and $DATASET refer to the request trace and the dataset to be used, respectively.
+Dummy weights: Change $TASK with the task type to be tested (e.g., vqa, vat), and $TRACE and $DATASET refer to the request trace (like [[AzureLLMInferenceTrace](https://github.com/Azure/AzurePublicDataset/blob/master/AzureLLMInferenceDataset2023.md)]) and the dataset (like [[sharegpt4v](https://huggingface.co/datasets/Lin-Chen/ShareGPT4V/blob/main/sharegpt4v_instruct_gpt4-vision_cap100k.json)]) to be used, respectively.
 ```bash
 cd benchmarks
 python launch_server.py --num-adapter 16 --num-token 30000 --model-setting qwenvl --scheduler ours
