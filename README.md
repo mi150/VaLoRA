@@ -64,7 +64,7 @@ python test_kernel_correctness.py
 ```bash
 @inproceedings{mi2025VaLoRA,
     title={Empower Vision Applications with LoRA LMM}, 
-    author={Liang Mi and Weijun Wang and Wenming Tu and Qingfeng He and Rui Kong and Xinyu Fang and Yazhu Dong and Yikang Zhang and Yunchun Li and Meng Li and Haipeng Dai and Guihai Chen and Yunxin Liu},
+    author={Liang, Mi and Weijun, Wang and Wenming, Tu and Qingfeng, He and Rui, Kong and Xinyu, Fang and Yazhu, Dong and Yikang, Zhang and Yunchun, Li and Meng, Li and Haipeng, Dai and Guihai, Chen and Yunxin, Liu},
     year={2025},
     booktitle = {ACM European Conference on Computer Systems (EuroSys)},
 }
