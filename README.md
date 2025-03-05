@@ -59,9 +59,11 @@ Test kernels performance:
 cd test/kernel
 python test_kernel_correctness.py
 ```
-
 ## Citation
-```bash
+
+If you use VaLoRA for your research, please cite our [paper](https://arxiv.org/pdf/2411.00915):
+
+```bibtex
 @inproceedings{mi2025VaLoRA,
     title={Empower Vision Applications with LoRA LMM}, 
     author={Liang, Mi and Weijun, Wang and Wenming, Tu and Qingfeng, He and Rui, Kong and Xinyu, Fang and Yazhu, Dong and Yikang, Zhang and Yunchun, Li and Meng, Li and Haipeng, Dai and Guihai, Chen and Yunxin, Liu},
