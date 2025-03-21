@@ -83,7 +83,7 @@ cd ../../draw
 python fig17.py
 ```
 
-[Fig.17](./draw/opcost.pdf)
+<embed src="./draw/opcost.pdf" width="100%" height="600px" type="application/pdf">
 
 ## Citation
 
