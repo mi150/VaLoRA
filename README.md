@@ -73,7 +73,9 @@ cd ../draw
 python fig14.py
 ```
 
-<img src="./draw/compare_vqa_var.png" alt="Fig.14" width="500">
+<div align="center">
+<img src="./draw/compare_vqa_vat.png" alt="Fig.14" width="500">
+</div>
 
 ```bash
 # For fig.17
@@ -84,8 +86,9 @@ cd ../../draw
 python fig17.py
 ```
 
-<img src="./draw/opcost.png" alt="Fig.17" width="500">
-
+<div align="center">
+ <img src="./draw/opcost.png" alt="Fig.17" width="200">
+</div>
 ## Citation
 
 If you use VaLoRA for your research, please cite our [paper](https://arxiv.org/pdf/2411.00915):
