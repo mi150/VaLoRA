@@ -61,6 +61,8 @@ python test_kernel_correctness.py
 ```
 
 You can draw the fig.14 and fig.17 in the paper with the following code：
+
+
 ```bash
 # For fig.14, change the scheduler(slora, punica, dlora) to the baseline that you want to compare.
 cd benchmarks
@@ -70,6 +72,8 @@ python run_exp.py --debug --model-setting qwenvl --num_adapters 16 --skewness 0.
 cd ../draw
 python fig14.py
 ```
+<iframe src="./draw/compare_vqa_var.pdf" width="20%" height="600px"></iframe>
+
 ```bash
 # For fig.17
 cd test/kernel
@@ -78,6 +82,8 @@ cd ../../draw
 # Replacement test data and run
 python fig17.py
 ```
+
+<iframe src="./draw/opcost.pdf" width="20%" height="600px"></iframe>
 
 ## Citation
 
