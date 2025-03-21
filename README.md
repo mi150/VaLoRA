@@ -72,7 +72,7 @@ python run_exp.py --debug --model-setting qwenvl --num_adapters 16 --skewness 0.
 cd ../draw
 python fig14.py
 ```
-<iframe src="./draw/compare_vqa_var.pdf" width="20%" height="600px"></iframe>
+[Fig.14](./draw/compare_vqa_var.pdf)
 
 ```bash
 # For fig.17
@@ -83,7 +83,7 @@ cd ../../draw
 python fig17.py
 ```
 
-<iframe src="./draw/opcost.pdf" width="20%" height="600px"></iframe>
+[Fig.17](./draw/opcost.pdf)
 
 ## Citation
 
