@@ -59,6 +59,26 @@ Test kernels performance:
 cd test/kernel
 python test_kernel_correctness.py
 ```
+
+You can draw the fig.14 and fig.17 in the paper with the following code：
+```bash
+# For fig.14, change the scheduler(slora, punica, dlora) to the baseline that you want to compare.
+cd benchmarks
+python launch_server.py --num-adapter 16 --num-token 30000 --model-setting qwenvl --scheduler ours
+python run_exp.py --debug --model-setting qwenvl --num_adapters 16 --skewness 0.8 --req_rate 6 --task vqa --trace_file
+# Replacement data and run
+cd ../draw
+python fig14.py
+```
+```bash
+# For fig.17
+cd test/kernel
+python test_kernel_correctness.py.py
+cd ../../draw
+# Replacement test data and run
+python fig17.py
+```
+
 ## Citation
 
 If you use VaLoRA for your research, please cite our [paper](https://arxiv.org/pdf/2411.00915):
