@@ -11,7 +11,7 @@ We prototype VaLoRA on five popular vision tasks on three LMMs.
 Experiment results reveal that VaLoRA improves 24-62% of the accuracy compared to the original LMMs and reduces 20-89% of the latency compared to the state-of-the-art LoRA model serving systems.
 
 ## Demo
-![VaLoRA Demo](assets/vlora_demo.mp4)
+https://github.com/user-attachments/assets/86ce06db-49b1-4a40-ac0a-ddf0a82ed2ef
 
 ## Requirements
 * CUDA 11.8 compatible GPU
